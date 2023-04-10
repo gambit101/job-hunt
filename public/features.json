@@ -1,0 +1,74 @@
+[
+    {
+        "id": 1,
+        "company_logo": "https://images.unsplash.com/photo-1573804633927-bfcbcd909acd?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=927&q=80",
+        "title": "Senior Software Engineer",
+        "company_name": "ABC Tech",
+        "remote_or_onsite": "Remote",
+        "location": "Seattle, WA",
+        "job_type": "Full-time",
+        "salary": "$120,000 - $150,000 per year",
+        "description": " A UI/UX (User Interface/User Experience) designer is responsible for designing and creating engaging and effective interfaces for software and web applications. This includes designing the layout, visual design, and interactivity of the user interface.",
+        "responsibilities": "•  Collaborating with cross-functional teams: UI/UX designers often work closely with other teams, including product management, engineering, and marketing, to ensure that the user interface is aligned with business and technical requirements. You will need to be able to effectively communicate your design ideas and gather feedback from other team members.",
+        "educational_requirements": "Bachelor's or Master's degree in Computer Science or related field",
+        "experience": "5+ years of experience in software development",
+        "contact": {
+            "phone": "555-123-4567",
+            "email": "jobs@abctech.com"
+        }
+    },
+    {
+        "id": 2,
+        "company_logo": "https://images.unsplash.com/photo-1643208589889-0735ad7218f0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=869&q=80",
+        "title": "Technical Database Engineer",
+        "company_name": "XYZ Enterprises",
+        "remote_or_onsite": "Onsite",
+        "location": "New York, NY",
+        "job_type": "Full-time",
+        "salary": "$90,000 - $120,000 per year",
+        "description": " A UI/UX (User Interface/User Experience) designer is responsible for designing and creating engaging and effective interfaces for software and web applications. This includes designing the layout, visual design, and interactivity of the user interface.",
+        "responsibilities": "•  Collaborating with cross-functional teams: UI/UX designers often work closely with other teams, including product management, engineering, and marketing, to ensure that the user interface is aligned with business and technical requirements. You will need to be able to effectively communicate your design ideas and gather feedback from other team members.",
+        "educational_requirements": "Bachelor's or Master's degree in Marketing or related field",
+        "experience": "7+ years of experience in marketing",
+        "contact": {
+            "phone": "212-555-1212",
+            "email": "jobs@xyzenterprises.com"
+        }
+    },
+    {
+        "id": 3,
+        "company_logo": "https://images.unsplash.com/photo-1633419461186-7d40a38105ec?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=580&q=80",
+        "title": "UX Designer",
+        "company_name": "123 Digital",
+        "remote_or_onsite": "Remote",
+        "location": "San Francisco, CA",
+        "job_type": "Full-time",
+        "salary": "$80,000 - $100,000 per year",
+        "description": " A UI/UX (User Interface/User Experience) designer is responsible for designing and creating engaging and effective interfaces for software and web applications. This includes designing the layout, visual design, and interactivity of the user interface.",
+        "responsibilities": "•  Collaborating with cross-functional teams: UI/UX designers often work closely with other teams, including product management, engineering, and marketing, to ensure that the user interface is aligned with business and technical requirements. You will need to be able to effectively communicate your design ideas and gather feedback from other team members.",
+        "educational_requirements": "Bachelor's or Master's degree in UX Design or related field",
+        "experience": "3+ years of experience in UX design",
+        "contact": {
+            "phone": "415-555-1212",
+            "email": "jobs@123digital.com"
+        }
+    },
+    {
+        "id": 4,
+        "company_logo": "https://images.unsplash.com/photo-1597878865099-a30447234956?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
+        "title": "Software Developer",
+        "company_name": "ABC Company",
+        "remote_or_onsite": "Remote",
+        "location": "New York, NY",
+        "job_type": "Full-time",
+        "salary": "$80,000 - $100,000 per year",
+        "description": " A UI/UX (User Interface/User Experience) designer is responsible for designing and creating engaging and effective interfaces for software and web applications. This includes designing the layout, visual design, and interactivity of the user interface.",
+        "responsibilities": "•  Collaborating with cross-functional teams: UI/UX designers often work closely with other teams, including product management, engineering, and marketing, to ensure that the user interface is aligned with business and technical requirements. You will need to be able to effectively communicate your design ideas and gather feedback from other team members.",
+        "educational_requirements": "Bachelor's degree in Computer Science or related field",
+        "experience": "3+ years of experience in software development",
+        "contact": {
+            "phone": "123-456-7890",
+            "email": "jobs@abccompany.com"
+        }
+    }
+]
