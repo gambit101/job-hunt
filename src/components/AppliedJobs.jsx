@@ -23,6 +23,7 @@ const AppliedJobs = () => {
 
     return (
         <div>
+            <h2 className='text-4xl font-bold text-center text-cyan-600'>Applied Jobs</h2>
             {
                 cart.map(item => <SingleJob key={item.id} item={item}></SingleJob>)
             }

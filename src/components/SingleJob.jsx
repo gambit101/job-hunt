@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const SingleJob = ({ item }) => {
     return (
@@ -24,7 +25,9 @@ const SingleJob = ({ item }) => {
 
                 </div>
                 <div className='ml-24 mt-8'>
-                    <button className='btn-primary'>View Details</button>
+                    <Link to={`/jobDetails/${item.id}`}>
+                        <button className='btn-primary'>View Details</button>
+                    </Link>
                 </div>
             </div>
 
