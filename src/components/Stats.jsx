@@ -46,7 +46,7 @@ const Stats = () => {
     ]
     return (
         <div>
-            <h2 className='text-4xl font-bold text-center text-cyan-600'>My Assignment Marks</h2>
+            <h2 className='text-4xl font-bold text-center text-cyan-600 mt-10'>My Assignment Marks</h2>
             <PieChart width={1300} height={500}>
                 <Pie
                     dataKey="marks"
