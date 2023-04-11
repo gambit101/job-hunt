@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { useLoaderData, useNavigation, useParams } from 'react-router-dom';
+import { Link, useLoaderData, useNavigation, useParams } from 'react-router-dom';
 import { addToDb } from '../utils/fakeDB';
 
 
@@ -15,7 +15,7 @@ const JobDetails = () => {
     // console.log(detailsData);
 
 
-    const handleAddToCart = id =>{
+    const handleAddToCart = id => {
         // console.log(id);
         addToDb(id)
     }
@@ -42,9 +42,11 @@ const JobDetails = () => {
                     <p className='mt-2'><span className='font-bold'>Email:</span> {detailsData.contact.email}</p>
                     <p className='mt-2'><span className='font-bold'>Address:</span>  Dhanmondi 32, Sukrabad
                         Dhaka, Bangladesh</p>
-                    <div className='mt-4'>
-                        <button onClick={()=>handleAddToCart(detailsData.id)} className='btn-primary'>Apply Now</button>
-                    </div>
+                    <Link to='/appliedJobs'>
+                        <div className='mt-4'>
+                            <button onClick={() => handleAddToCart(detailsData.id)} className='btn-primary'>Apply Now</button>
+                        </div>
+                    </Link>
                 </div>
 
             </div>
