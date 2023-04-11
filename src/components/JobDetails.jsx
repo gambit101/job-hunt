@@ -4,23 +4,21 @@ import { addToDb } from '../utils/fakeDB';
 
 
 const JobDetails = () => {
-    // const [details, setDetails] = useState([]);
+    
     const { id } = useParams();
 
     const jobDetails = useLoaderData();
-    // console.log(jobDetails);
 
 
     const detailsData = jobDetails.find(dt => dt.id == jobDetails[id - 1].id)
-    // console.log(detailsData);
-
+    
 
     const handleAddToCart = id => {
-        // console.log(id);
+        
         addToDb(id)
     }
 
-    // console.log(id);
+    
     return (
         <div>
             <h2 className='text-4xl font-bold text-center text-cyan-600'>Job Details</h2>

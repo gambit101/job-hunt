@@ -7,7 +7,7 @@ const Home = () => {
     const [jobs, setJobs] = useState([])
 
     const [categories] = useLoaderData();
-    // console.log(categories);
+    
 
 
     useEffect(() => {
