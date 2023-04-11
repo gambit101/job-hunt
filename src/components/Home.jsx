@@ -7,15 +7,15 @@ const Home = () => {
     const [jobs, setJobs] = useState([])
 
     const [categories] = useLoaderData();
-    
+
 
 
     useEffect(() => {
-      fetch('features.json')
-        .then(res => res.json())
-        .then(data => setJobs(data))
+        fetch('features.json')
+            .then(res => res.json())
+            .then(data => setJobs(data))
     }, [])
-    
+
 
     return (
         <div>
@@ -30,7 +30,7 @@ const Home = () => {
                     <button className='btn-primary mt-4'>Get Started</button>
                 </div>
                 <div>
-                    <img src="All Images/P3OLGJ1 copy 1.png" alt="" />
+                    <img className='h-3/4 ml-4' src="https://cdn.pixabay.com/photo/2013/07/13/12/42/inspector-160143_960_720.png" alt="" />
                 </div>
             </div>
 
@@ -68,7 +68,7 @@ const Home = () => {
 
             {/* main features */}
 
-            
+
 
             {/* map  */}
 
