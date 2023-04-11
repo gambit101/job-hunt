@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { useLoaderData, useNavigation, useParams } from 'react-router-dom';
+import { addToDb } from '../utils/fakeDB';
 
 
 const JobDetails = () => {
@@ -14,7 +15,10 @@ const JobDetails = () => {
     // console.log(detailsData);
 
 
-
+    const handleAddToCart = id =>{
+        console.log(id);
+        addToDb(id)
+    }
 
     // console.log(id);
     return (
@@ -39,7 +43,7 @@ const JobDetails = () => {
                     <p className='mt-2'><span className='font-bold'>Address:</span>  Dhanmondi 32, Sukrabad
                         Dhaka, Bangladesh</p>
                     <div className='mt-4'>
-                        <button className='btn-primary'>Apply Now</button>
+                        <button onClick={()=>handleAddToCart(detailsData.id)} className='btn-primary'>Apply Now</button>
                     </div>
                 </div>
 
