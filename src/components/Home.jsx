@@ -5,6 +5,7 @@ import Job from './Job';
 
 const Home = () => {
     const [jobs, setJobs] = useState([])
+    const [visibleCards, setVisibleCards] = useState(4);
 
     const [categories] = useLoaderData();
 
@@ -17,9 +18,16 @@ const Home = () => {
     }, [])
 
 
+    const handleSeeMoreClick = () => {
+        setVisibleCards(visibleCards + 5);
+    };
+
+    // console.log(jobs);
+
+
     return (
         <div>
-            <div className='flex mx-10'>
+            <div className='md:flex mx-10'>
                 <div className='mt-6 '>
                     <h2 className='items-center text-6xl font-bold'>
                         One Step  <br />  Closer To Your <br /> <span className='text-cyan-600'>Dream Job</span>
@@ -72,13 +80,13 @@ const Home = () => {
 
             {/* map  */}
 
-            <div className='grid grid-cols-2'>
+            <div className='grid grid-cols-1 md:grid-cols-2'>
                 {
-                    jobs.map(job => <Job key={job.id} job={job}></Job>)
+                    jobs.slice(0, visibleCards).map(job => <Job key={job.id} job={job}></Job>)
                 }
             </div>
             <div className='text-center my-12 '>
-                <button className='font-medium  transition duration-200  shadow-md  md:mb-0  px-4 py-2 md:px-8 md:py-3  text-lg rounded-full border-transparent border-2  text-gray-700 hover:bg-purple-400 bg-purple-300'>See All</button>
+                <button className='font-medium  transition duration-200  shadow-md  md:mb-0  px-4 py-2 md:px-8 md:py-3  text-lg rounded-full border-transparent border-2  text-gray-700 hover:bg-purple-400 bg-purple-300' onClick={handleSeeMoreClick}>See All</button>
             </div>
         </div>
     );

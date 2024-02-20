@@ -10,7 +10,9 @@ const JobDetails = () => {
     const jobDetails = useLoaderData();
 
 
-    const detailsData = jobDetails.find(dt => dt.id == jobDetails[id - 1].id)
+    const detailsData = jobDetails.find(dt => dt.id == id)
+
+    console.log(id);
     
 
     const handleAddToCart = id => {

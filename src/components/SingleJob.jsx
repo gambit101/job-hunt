@@ -2,6 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 
 const SingleJob = ({ item }) => {
+    console.log(item);
     return (
 
         <div className='flex justify-center mt-10 border-2 w-2/3 ml-44 p-4 rounded-md'>
